@@ -17,7 +17,7 @@ const experiences: Experience[] = [
     location: 'Bribri',
     duration: '2 hours',
     description: 'Cacao preparado de forma ancestral, plantas medicinales y una visita a la cascada del bosque.',
-    image: '/assets/images/1.jpg',
+    image: '/assets/images/awaExperience.jpg',
     tag: 'Cultura',
     price: '$120 USD',
     details: 'Conocerás la historia del cacao y su preparación ancestral, aprenderás sobre plantas medicinales y culminaremos con una caminata hasta la cascada del bosque para nadar en sus aguas frescas.',
