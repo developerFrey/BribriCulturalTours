@@ -12,24 +12,24 @@ type Experience = {
 };
 // Define the experience images and experiences array
 const experienceImages = [
-  '/assets/images/awaExperience.jpg',
-  '/assets/images/bribriCacaoImmersion.jpg',
-  '/assets/images/bribriCommunityImmersion.jpg',
-  '/assets/images/bribriRiver&CulturalImer.png',
-  '/assets/images/jungleImmersion.jpg',
-  '/assets/images/bribriRiverExp.png',
-  '/assets/images/FarmTableCooking.jpg',
-  '/assets/images/uvaKayak&Rainforest.png',
-  '/assets/images/carribeanReefSnorkling.JPG',
-  '/assets/images/cahuitaNationalPark.jpg',
-  '/assets/images/manzanillo.png',
-  '/assets/images/punta mona.JPG',
-  '/assets/images/jungleNightWalk.JPG',
-  '/assets/images/carribeanWildlifeExpedition.JPG',
-  '/assets/images/carribeanBirdWatching.jpg',
-  '/assets/images/jungleWaterfallEscape.jpg',
-  '/assets/images/gandocaLagoon.jpg',
-  '/assets/images/kekoldi.jpg',
+  './assets/images/awaExperience.jpg',
+  './assets/images/bribriCacaoImmersion.jpg',
+  './assets/images/bribriCommunityImmersion.jpg',
+  './assets/images/bribriRiver&CulturalImer.png',
+  './assets/images/jungleImmersion.jpg',
+  './assets/images/bribriRiverExp.png',
+  './assets/images/FarmTableCooking.jpg',
+  './assets/images/uvaKayak&Rainforest.png',
+  './assets/images/carribeanReefSnorkling.JPG',
+  './assets/images/cahuitaNationalPark.jpg',
+  './assets/images/manzanillo.png',
+  './assets/images/punta mona.JPG',
+  './assets/images/jungleNightWalk.JPG',
+  './assets/images/carribeanWildlifeExpedition.JPG',
+  './assets/images/carribeanBirdWatching.jpg',
+  './assets/images/jungleWaterfallEscape.jpg',
+  './assets/images/gandocaLagoon.jpg',
+  './assets/images/kekoldi.jpg',
 ];
 const awaDetails = `<p>Enter a sacred space. Connect with yourself. Discover another way of seeing the world.</p><p>There are experiences you simply visit. And there are experiences that invite you to look within.</p><p>A visit to an <strong>Awá</strong>, the traditional spiritual guide and healer of the Bribri people, is one of the most profound experiences you can have while visiting the Caribbean of Costa Rica.</p><p>This is not a conventional tour. It is an intimate encounter with Bribri spirituality, held inside a sacred <strong>Usule</strong>, the traditional ceremonial house of the Awá.</p><h4>🌿 A SACRED SPACE</h4><p>The session begins by creating a safe and sacred space through <strong>traditional chants, meditation and spiritual connection</strong>. The Awá guides the experience according to the person and their intentions, creating a moment to slow down, reconnect with oneself and explore what may be happening within.</p><p>Different elements of nature may be incorporated, including <strong>fire, water, plants and air</strong>, according to traditional practice and the needs of the session.</p><h4>🌀 WHY DO PEOPLE VISIT AN AWÁ?</h4><p>Every person arrives with a different reason. Some seek:</p><ul><li>Spiritual cleansing</li><li>Balance and inner harmony</li><li>A deeper connection with themselves</li><li>Spiritual guidance</li><li>Understanding of their personal path or purpose</li><li>Support during moments of transition</li><li>A deeper connection with the spiritual world</li><li>A space for reflection and healing</li></ul><p>The Awá works from Bribri ancestral knowledge, helping restore balance and allowing life to flow with greater harmony.</p><h4>🛖 INSIDE THE USULE</h4><p>The Usule is more than a traditional house. It is a sacred space connected to the Bribri worldview and spirituality. The Awá may share aspects of <strong>Bribri cosmology and our way of understanding existence, nature, the spiritual world and the human being's place within it.</strong></p><h4>✨ AN EXPERIENCE THAT GOES DEEPER</h4><p>Sometimes we need a space to stop, breathe, listen and reconnect. If you feel called to experience something deeper than conventional tourism, this may be an opportunity to discover a different perspective on yourself, nature and life.</p><h4>⏱️ DURATION</h4><p><strong>Approximately 2 hours.</strong> The session may extend according to its natural flow.</p><h4>👤 GROUP SIZE</h4><p>For one person or a small group. <strong>There is no minimum number of participants.</strong></p><h4>💰 PRICE</h4><p><strong>From $120 USD per person.</strong> Private sessions may have a different rate. Contact us for the current rate according to group size and transportation needs.</p><h4>🚐 TRANSPORTATION</h4><p>Transportation from <strong>Puerto Viejo</strong> can be arranged as an additional service.</p><h4>🌿 WHAT TO BRING</h4><ul><li>Comfortable clothing</li><li>Water</li><li>An open mind</li><li>A willingness to connect, listen and experience</li></ul><p>There is no specific physical difficulty or minimum age. A nearby waterfall visit can be arranged separately.</p><p><strong>THIS IS MORE THAN A VISIT.</strong><br /><strong>It is an invitation to pause, connect and look within.</strong></p>`;
 const cacaoDetails = `<p><strong>More than a tour - a journey into cacao, ancestral knowledge and the rainforest.</strong></p><p><strong>Approximately 5 hours · $95 USD per person · Easy · Minimum 2 people</strong></p><p>Step beyond conventional tourism and experience Bribri culture through <strong>cacao, plants, food, spirituality and the living rainforest</strong>. Hosted by local families, this experience invites you to participate, learn and connect rather than simply observe. There is no rush; every experience follows the natural rhythm of the people who join us.</p><h4>🌿 WHAT'S INCLUDED IN YOUR EXPERIENCE</h4><h4>🍫 Cacao Experience</h4><p>Discover the complete cacao process, from <strong>fermentation and drying to roasting and tasting</strong>, and learn about its spiritual connection to Indigenous peoples, the heart and human connection.</p><h4>🌱 Medicinal &amp; Ornamental Plants</h4><p>Interact with plants traditionally used by Bribri people and learn about their <strong>uses, benefits and cultural importance</strong>.</p><h4>🐸 Rainforest &amp; Wildlife</h4><p>Explore the forest, discover amphibians and wildlife, and learn about their place in the Bribri relationship with nature.</p><h4>🛖 Traditional Bribri House</h4><p>Enter a traditional house and explore the <strong>Bribri worldview, spirituality, dimensions of existence, human growth and purpose</strong>.</p><h4>🎨 Natural Painting</h4><p>Discover plants used to create natural pigments and, depending on the experience, create your own traditional-style painting.</p><h4>🍽️ Organic Community Lunch</h4><p>Enjoy a meal prepared with <strong>organic ingredients harvested within the community</strong>.</p><h4>💦 Waterfall Experience</h4><p>Finish at a beautiful waterfall where you can <strong>swim, relax and reconnect with nature</strong>. We also bring cacao to the waterfall for a natural exfoliation and a personal moment of connection with <strong>the earth, nature and yourself</strong>.</p><h4>🚐 TRANSPORTATION</h4><p>Round-trip transportation from <strong>Puerto Viejo</strong> is included.</p><h4>✨ MORE THAN A TOUR</h4><p>Meet people, learn from ancestral knowledge, connect with nature and discover another way of seeing the world. Meaningful cultural experiences begin with <strong>respect, curiosity and an open heart</strong>.</p><h4>🎒 WHAT TO BRING</h4><ul><li>Comfortable clothing</li><li>Closed-toe shoes</li><li>Insect repellent</li><li>Sunscreen</li><li>Water and snacks</li><li>Swimwear and towel</li></ul><h4>ℹ️ EXPERIENCE DETAILS</h4><p><strong>Duration:</strong> Approximately 5 hours<br /><strong>Price:</strong> $95 USD per person<br /><strong>Minimum booking:</strong> 2 people<br /><strong>Minimum age:</strong> No minimum age<br /><strong>Difficulty:</strong> Easy<br /><strong>Lunch:</strong> Organic community lunch included</p><h4>🛖 RESPECT FOR THE COMMUNITY</h4><p>This experience takes place within Bribri territory and is hosted with local families. To respect their privacy, culture and way of life, <strong>the exact meeting point and community location are shared only after the reservation has been confirmed.</strong></p><p><strong>COME WITH AN OPEN HEART.</strong><br /><strong>Learn. Participate. Connect.</strong><br /><strong>Experience Bribri culture beyond the surface.</strong></p>`;
@@ -76,14 +76,14 @@ const allExperiences = experiences;
 type GalleryItem = { type: 'image' | 'video'; src: string; title: string; description: string };
 const galleryItems: GalleryItem[] = [
   ...experienceImages.map((src, index) => ({ type: 'image' as const, src, title: `Experience ${String(index + 1).padStart(2, '0')}`, description: 'Moments from our experiences.' })),
-  ...Array.from({ length: 10 }, (_, index) => ({ type: 'video' as const, src: `/assets/video/${index + 1}.mp4`, title: `Travel diary ${String(index + 1).padStart(2, '0')}`, description: 'Moments from our experiences.' })),
-  { type: 'video', src: '/assets/video/11.mp4', title: 'Travel diary 11', description: 'Moments from our experiences.' },
-  { type: 'video', src: '/assets/video/13.mp4', title: 'Travel diary 13', description: 'Moments from our experiences.' },
-  { type: 'video', src: '/assets/video/14.mp4', title: 'Travel diary 14', description: 'Moments from our experiences.' },
-  { type: 'video', src: '/assets/video/15.mp4', title: 'Travel diary 15', description: 'Moments from our experiences.' },
-  { type: 'video', src: '/assets/video/16.mp4', title: 'Travel diary 16', description: 'Moments from our experiences.' },
-  { type: 'video', src: '/assets/video/17.mp4', title: 'Travel diary 17', description: 'Moments from our experiences.' },
-  { type: 'video', src: '/assets/images/from farm to table video.mp4', title: 'Farm to table', description: 'Moments from our experiences.' },
+  ...Array.from({ length: 10 }, (_, index) => ({ type: 'video' as const, src: `./assets/video/${index + 1}.mp4`, title: `Travel diary ${String(index + 1).padStart(2, '0')}`, description: 'Moments from our experiences.' })),
+  { type: 'video', src: './assets/video/11.mp4', title: 'Travel diary 11', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/video/13.mp4', title: 'Travel diary 13', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/video/14.mp4', title: 'Travel diary 14', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/video/15.mp4', title: 'Travel diary 15', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/video/16.mp4', title: 'Travel diary 16', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/video/17.mp4', title: 'Travel diary 17', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/images/from farm to table video.mp4', title: 'Farm to table', description: 'Moments from our experiences.' },
 ];
 // Generate the gallery markup
 const galleryMarkup = galleryItems.map((item) => `
@@ -110,7 +110,7 @@ const experienceMarkup = allExperiences.map((experience, index) => `
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Bribri Cultural Tours, home">
-    <img src="/assets/bribriLogo.png" alt="" class="brand__icon" aria-hidden="true" width="10" height="90" />
+    <img src="./assets/bribriLogo.png" alt="" class="brand__icon" aria-hidden="true" width="10" height="90" />
     <span><strong>Bribri</strong><em> Cultural Tours</em></span>
   </a>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><small>Menu</small></button>
@@ -127,7 +127,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <main class="site-main">
     <section id="home" class="hero">
       <video id="hero-video" class="hero__video" autoplay loop playsinline>
-        <source src="/assets/video/1.mp4" type="video/mp4" />
+        <source src="./assets/video/1.mp4" type="video/mp4" />
       </video>
       <button class="video-mute-toggle" type="button" aria-label="Activar sonido" aria-pressed="true">
         <span class="video-mute-toggle__icon" aria-hidden="true">🔇</span>
@@ -174,11 +174,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <section class="field-notes page-width">
       <div class="field-notes__copy"><span class="eyebrow">Postcards from the territory</span><h2>What it feels like<br /><em>when you arrive.</em></h2><p>Some places are not meant to be visited in a hurry. They are heard, walked and shared with those who truly know them.</p></div>
-      <div class="field-notes__media"><video controls preload="metadata" poster="/assets/images/3.jpg"><source src="/assets/video/2.mp4" type="video/mp4" />Your browser does not support HTML5 video.</video><span>Travel diary / 02</span></div>
+      <div class="field-notes__media"><video controls preload="metadata" poster="./assets/images/3.jpg"><source src="./assets/video/2.mp4" type="video/mp4" />Your browser does not support HTML5 video.</video><span>Travel diary / 02</span></div>
     </section>
 
     <section class="guide page-width" id="guia">
-      <div class="guide__image"><img src="/assets/images/guide.jpg" alt="Roberth, Bribri local guide" loading="lazy" /></div>
+      <div class="guide__image"><img src="./assets/images/guide.jpg" alt="Roberth, Bribri local guide" loading="lazy" /></div>
       <div class="guide__content"><span class="eyebrow">Meet your guide</span><h2>Roberth<br /><em>the person behind the journey.</em></h2><p>Hello, my name is Roberth.</p><p>I am a Bribri man, a tourism professional, and someone deeply connected to the culture, rainforest and land where I grew up.</p><p>I graduated from university with a degree in Tourism and have spent the past <strong>six years guiding travelers and sharing the Caribbean of Costa Rica</strong> - its landscapes, wildlife, people and culture.</p><p>But for me, tourism is more than a profession.</p><p>I am committed to the rescue, transmission and continuation of Bribri knowledge and traditions. Through my experiences, I share what I have learned about wildlife, plants, cacao, agriculture, Bribri history and the way our people understand and connect with the natural world.</p><p>I believe the best way to learn is by doing. That is why my experiences are not simply about visiting a place. They are about participating, asking questions, connecting and seeing the world from a different perspective.</p><p>I follow the Bribri principles of living consciously and in harmony with the Earth, with respect for the land, the people and everything around us.</p><p class="guide__closing"><strong>For me, sharing culture is not about showing you the past. It is about sharing something that is still alive.</strong><br /><span>SIBÖ BÉ KÍMË</span></p><a class="text-link" href="https://wa.me/50683647960" target="_blank" rel="noreferrer">Plan your experience <span>↗</span></a></div>
     </section>
 
@@ -189,7 +189,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <section class="policies page-width" id="politicas"><div class="policies__heading"><span class="eyebrow">Important information</span><h2>Booking<br /><em>&amp; tour policies.</em></h2><p>At <strong>Bribri Cultural Tours</strong>, we are committed to providing meaningful, safe and respectful experiences while supporting local communities, Indigenous culture and the natural environment.</p></div><div class="policies__list"><details open><summary>1. Minimum Number of Participants</summary><p>All tours and activities require a <strong>minimum of 2 participants</strong> to operate.</p></details><details><summary>2. Advance Booking</summary><p>Tours must be booked <strong>at least 1 day in advance</strong>. Some experiences may require additional notice due to transportation, community coordination, availability or other logistics.</p></details><details><summary>3. Reservation Deposit</summary><p>A <strong>20% advance payment</strong> is required to confirm your reservation. The deposit reserves your date, guide, transportation and necessary arrangements and is generally non-refundable. The remaining <strong>80% must be paid before or at the beginning of the tour</strong>. A reservation is confirmed only once the deposit has been received.</p></details><details><summary>4. Changes of Date</summary><p>Contact us <strong>at least 24 hours before the scheduled start</strong> if you need to change your date. When possible, the 20% deposit may be transferred to a new date once, subject to availability. Changes requested later may be considered a cancellation and may result in loss of the deposit.</p></details><details><summary>5. Cancellations</summary><p>The 20% deposit is generally <strong>non-refundable</strong> because it covers planning, coordination, transportation arrangements and preparations made for your booking. In a genuine emergency or exceptional circumstance, contact us as soon as possible, preferably at least 24 hours before the activity. We may offer a refund, credit or alternative date on a case-by-case basis. Late cancellations or no-shows may result in loss of the deposit.</p></details><details><summary>6. Weather or Safety Conditions</summary><p>Experiences may be affected by weather, river conditions, trails or other environmental factors. For safety reasons, Bribri Cultural Tours may <strong>modify, postpone or cancel an activity</strong>. We will work with the client to arrange an alternative date or an appropriate refund of the amount paid, depending on the circumstances.</p></details><details><summary>7. Children</summary><p><strong>Children from 0 to 5 years old:</strong> Free of charge.<br /><strong>Children from 6 to 12 years old:</strong> 50% of the adult price.<br /><strong>13 years and older:</strong> Adult price.<br />Some activities may have specific age or safety restrictions.</p></details><details><summary>8. Allergies &amp; Special Considerations</summary><p>Before the tour, inform us of allergies or sensitivities to food, insects, plants or any other element present during the experience. Also share dietary restrictions, mobility considerations or other special requirements relevant to the activity.</p></details><details><summary>9. Transportation &amp; Private Vehicles</summary><p>Transportation is included where indicated. If you travel with your <strong>own vehicle</strong>, a discount may be applied depending on the tour and transportation requirements.</p></details><details><summary>10. Personal Belongings &amp; Equipment</summary><p>Bribri Cultural Tours is <strong>not responsible for the loss, theft or damage of personal belongings, electronic devices, clothing, equipment or other items brought by the client</strong>. We recommend bringing only what is necessary and keeping personal belongings secure throughout the experience.</p></details><details><summary>11. Outdoor Activities &amp; Safety</summary><p>All experiences take place <strong>outdoors and in natural environments</strong>. Conditions may include uneven terrain, mud, rocks, rivers, steep sections, insects, rain, heat and other natural conditions. Participants must follow the guide's instructions and safety recommendations and inform the guide of any condition that could affect safe participation.</p></details><details><summary>12. What to Bring</summary><p>We recommend bringing:</p><ul><li>Drinking water</li><li>Environmentally friendly insect repellent</li><li>Sunscreen, if needed</li><li>Comfortable clothing</li><li>Closed-toe shoes</li><li>Swimwear, when applicable</li><li>Towel or small cloth</li><li>Snacks</li><li>Personal medication, if required</li></ul><p>Please consider the specific requirements of your chosen tour.</p></details><details><summary>13. Respect for Nature &amp; Local Communities</summary><p>Our experiences are based on <strong>respect for nature, local communities, Indigenous culture and traditional knowledge</strong>. Guests are expected to respect local customs, community rules, wildlife, plants, cultural spaces and the environment. Please do not remove cultural objects, plants, animals or natural resources without permission.</p></details><details><summary>14. Responsible Tourism</summary><p>By joining our experiences, you become part of a <strong>respectful exchange between visitors, local people, culture and the land</strong>. Please avoid littering, damaging natural areas, disturbing wildlife or behavior that could negatively affect communities or places we visit.</p><p><strong>Thank you for traveling with respect and supporting the protection and continuation of Bribri culture, territory and local livelihoods.</strong></p></details><details><summary>Our Commitment</summary><p>At <strong>Bribri Cultural Tours</strong>, we believe tourism can be a bridge between cultures. Every experience is an opportunity to learn, share and create a respectful connection with the land and the people who call it home.</p><p><strong>Thank you for choosing to experience the Caribbean and Bribri territory with us.</strong></p></details></div></section>
 
-    <section class="contact" id="contacto"><div class="page-width contact__grid"><div><span class="eyebrow">Ready to explore?</span><h2>Make room<br /><em>for adventure.</em></h2></div><div><p>Tell us what you want to discover and we will design an experience at your own pace.</p><a class="button button--light" href="https://wa.me/50683647960" target="_blank" rel="noreferrer">Write on WhatsApp <span>↗</span></a><a class="catalog-download catalog-download--contact" href="/Bribri_Cultural_Tours_OFFICIAL_CATALOG.pdf" download><span class="catalog-download__label">Download the complete tour catalog</span><span class="catalog-download__action">PDF ↓</span></a><p class="contact__small">You can also find us on Instagram · @bribri_cultural_tours</p></div></div></section>
+    <section class="contact" id="contacto"><div class="page-width contact__grid"><div><span class="eyebrow">Ready to explore?</span><h2>Make room<br /><em>for adventure.</em></h2></div><div><p>Tell us what you want to discover and we will design an experience at your own pace.</p><a class="button button--light" href="https://wa.me/50683647960" target="_blank" rel="noreferrer">Write on WhatsApp <span>↗</span></a><a class="catalog-download catalog-download--contact" href="./Bribri_Cultural_Tours_OFFICIAL_CATALOG.pdf" download><span class="catalog-download__label">Download the complete tour catalog</span><span class="catalog-download__action">PDF ↓</span></a><p class="contact__small">You can also find us on Instagram · @bribri_cultural_tours</p></div></div></section>
   </main>
 
   <section class="gallery-view" id="gallery" hidden aria-labelledby="gallery-title">
@@ -213,7 +213,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <!-- Branding -->
     <div class="footer__brand">
       <a class="brand brand--footer" href="#home">
-        <img src="/assets/bribriLogo.png" alt="" class="brand__icon" aria-hidden="true" width="48" height="48" />
+        <img src="./assets/bribriLogo.png" alt="" class="brand__icon" aria-hidden="true" width="48" height="48" />
         <span><strong>Bribri</strong><em>Cultural Tours</em></span>
       </a>
       <p>Rooted travel from the Southern Caribbean of Costa Rica.</p>
@@ -222,13 +222,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <!-- Redes Sociales -->
     <nav class="social-links" aria-label="Redes sociales">
       <a href="https://www.facebook.com/bobtikin.moradiaz" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-        <img src="/assets/Icons/facebook-icon.svg" alt="" class="social-links__icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+        <img src="./assets/Icons/facebook-icon.svg" alt="" class="social-links__icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       </a>
       <a href="https://www.instagram.com/bribri_cultural_tours/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-        <img src="/assets/Icons/instagram-icon.svg" alt="" class="social-links__icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+        <img src="./assets/Icons/instagram-icon.svg" alt="" class="social-links__icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       </a>
       <a href="https://www.tiktok.com/@roberth_moradiaz?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-        <img src="/assets/Icons/tiktok-icon.svg" alt="" class="social-links__icon" aria-hidden="true" width="24" height="24" loading="lazy" />
+        <img src="./assets/Icons/tiktok-icon.svg" alt="" class="social-links__icon" aria-hidden="true" width="24" height="24" loading="lazy" />
       </a>
     </nav>
 
@@ -241,7 +241,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="experience-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="experience-modal__backdrop" data-close-modal></div><div class="experience-modal__panel"><button class="experience-modal__close" type="button" aria-label="Close information" data-close-modal>×</button><span class="eyebrow" id="modal-tag"></span><h2 id="modal-title"></h2><div class="experience-modal__description" id="modal-description"></div><div class="experience-modal__meta"><span id="modal-location"></span><span id="modal-duration"></span><strong id="modal-price"></strong></div><a class="button button--dark" href="https://wa.me/50683647960" target="_blank" rel="noreferrer">Check availability <span>↗</span></a></div></div>
 
   <a class="whatsapp-float" href="https://wa.me/50683647960" target="_blank" rel="noopener noreferrer" aria-label="Write on WhatsApp">
-  <img src="/assets/Icons/whatsapp-icon.svg" alt="" class="whatsapp-float__icon" aria-hidden="true" width="24" height="24" />
+  <img src="./assets/Icons/whatsapp-icon.svg" alt="" class="whatsapp-float__icon" aria-hidden="true" width="24" height="24" />
   <span class="whatsapp-float__label">WhatsApp</span>
   </a>
 `;
