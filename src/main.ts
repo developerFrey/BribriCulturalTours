@@ -95,7 +95,7 @@ const galleryMarkup = galleryItems.map((item) => `
 // Generate the experiences markup
 const experienceMarkup = allExperiences.map((experience, index) => `
   <article class="experience-card experience-card--color-${index % 6} ${index === 1 ? 'experience-card--featured' : ''}" data-experience-index="${index}">
-    <img src="${experience.image}" alt="${experience.title}" loading="lazy" decoding="async" />
+    <img src="${experience.image}" alt="${experience.title}" loading="${index < 6 ? 'eager' : 'lazy'}" decoding="async"${index < 6 ? ' fetchpriority="high"' : ''} />
     <div class="experience-card__body">
       <span class="eyebrow">${experience.tag}</span>
       <h3>${experience.title}</h3>

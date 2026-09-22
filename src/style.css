@@ -89,7 +89,7 @@ h2 { font-size: clamp(3rem, 5vw, 5.3rem); margin-bottom: 0; }
 .experience-card--color-3 { background: #c39a3a; color: #2e291e; }
 .experience-card--color-4 { background: #9f503f; color: #fffaf3; }
 .experience-card--color-5 { background: #5a456d; color: #fffaf3; }
-.experience-card img { aspect-ratio: 1.15; object-fit: cover; filter: saturate(.85); }
+.experience-card img { aspect-ratio: 1.15; object-fit: cover; object-position: center; filter: none; image-rendering: auto; }
 .experience-card__body { padding: 23px 22px 19px; }
 .experience-card__body { display: flex; flex: 1; flex-direction: column; }
 .experience-card__body .eyebrow { color: currentColor; opacity: .72; }
