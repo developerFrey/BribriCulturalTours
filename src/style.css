@@ -204,7 +204,10 @@ blockquote { max-width: 760px; margin: 22px auto 22px; font-family: var(--displa
 .social-links svg { width: 17px; height: 17px; fill: currentColor; stroke: currentColor; stroke-width: 1.7; }
 .social-links a:nth-child(2) svg { fill: none; }
 .social-links a:nth-child(3) svg { fill: currentColor; stroke: none; }
-.catalog-download { display: flex; align-items: center; gap: 14px; padding: 11px 14px; border: 1px solid rgba(255,255,255,.35); color: var(--white); background: rgba(255,255,255,.06); font-size: 11px; transition: background .2s ease, border-color .2s ease, transform .2s ease; }
+.catalog-download { display: flex; align-items: center; gap: 12px; padding: 11px 14px; border: 1px solid rgba(255,255,255,.35); color: var(--white); background: rgba(255,255,255,.06); font-size: 11px; transition: background .2s ease, border-color .2s ease, transform .2s ease; }
+.catalog-download__icon { display: grid; place-items: center; min-width: 34px; height: 38px; padding: 0 4px; color: var(--forest); background: #fff; font-size: 9px; font-weight: 800; letter-spacing: .04em; box-shadow: 3px 3px 0 rgba(49,91,77,.35); }
+.catalog-download__icon svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
+.catalog-download__icon b { font-size: 8px; line-height: 1; }
 .catalog-download:hover { border-color: #c8d39d; background: rgba(200,211,157,.14); transform: translateY(-2px); }
 .catalog-download__label { max-width: 180px; }
 .catalog-download__action { color: #c8d39d; font-weight: 700; letter-spacing: .1em; white-space: nowrap; }
