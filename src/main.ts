@@ -88,7 +88,7 @@ const galleryItems: GalleryItem[] = [
 // Generate the gallery markup
 const galleryMarkup = galleryItems.map((item) => `
   <article class="gallery-item" data-gallery-type="${item.type}">
-    ${item.type === 'video' ? `<video controls preload="none"><source src="${item.src}" type="${item.src.toLowerCase().endsWith('.mov') ? 'video/quicktime' : 'video/mp4'}" /></video>` : `<img src="${item.src}" alt="${item.title}" loading="lazy" decoding="async" />`}
+    ${item.type === 'video' ? `<video controls preload="metadata"><source src="${item.src}" type="video/mp4" /></video>` : `<img src="${item.src}" alt="${item.title}" loading="lazy" decoding="async" />`}
     <div class="gallery-item__caption"><span>${item.type === 'video' ? 'Video' : 'Photo'}</span><h3>${item.title}</h3><p>${item.description}</p></div>
   </article>
 `).join('');
@@ -126,7 +126,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
   <main class="site-main">
     <section id="home" class="hero">
-      <video id="hero-video" class="hero__video" autoplay loop playsinline>
+      <video id="hero-video" class="hero__video" autoplay muted loop playsinline preload="metadata" poster="./assets/images/1.jpg">
         <source src="./assets/video/1.mp4" type="video/mp4" />
       </video>
       <button class="video-mute-toggle" type="button" aria-label="Activar sonido" aria-pressed="true">
@@ -274,15 +274,8 @@ const syncMuteButton = () => {
 };
 if (heroVideo && muteButton) {
   heroVideo.volume = 0.5;
-  heroVideo.muted = false;
-  const attemptAudibleAutoplay = () => {
-    heroVideo.play().catch(() => {
-      // Browsers can block audible autoplay; keep playback working silently.
-      heroVideo.muted = true;
-      syncMuteButton();
-    });
-  };
-  heroVideo.addEventListener('canplay', attemptAudibleAutoplay, { once: true });
+  heroVideo.muted = true;
+  heroVideo.play().catch(() => undefined);
   muteButton.addEventListener('click', () => { heroVideo.muted = !heroVideo.muted; syncMuteButton(); });
   syncMuteButton();
 }
