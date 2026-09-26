@@ -139,7 +139,7 @@ blockquote { max-width: 760px; margin: 22px auto 22px; font-family: var(--displa
 .reviews__heading .text-link { margin: 0; }
 .reviews__widget { min-height: 240px; max-width: 100%; overflow: hidden; clip-path: inset(0); }
 .reviews__widget > div { width: 100%; max-width: 100%; overflow: hidden; }
-.reviews__widget iframe, .reviews__widget [class*="elfsight"], .reviews__widget > div > div { max-width: 100%; }
+.reviews__widget iframe, .reviews__widget [class*="blootrue"], .reviews__widget > div > div { max-width: 100%; }
 .reviews__viewport { overflow: hidden; }
 .reviews__track { display: flex; width: max-content; gap: 18px; animation: review-scroll 42s linear infinite; }
 .reviews__track:hover { animation-play-state: paused; }
