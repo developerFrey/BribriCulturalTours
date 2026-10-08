@@ -12,51 +12,51 @@ type Experience = {
 };
 // Define the experience images and experiences array
 const experienceImages = [
-  './assets/images/awaExperience.jpg',
-  './assets/images/bribriCacaoImmersion.jpg',
-  './assets/images/bribriCommunityImmersion.jpg',
-  './assets/images/bribriRiver&CulturalImer.png',
-  './assets/images/jungleImmersion.jpg',
-  './assets/images/bribriRiverExp.png',
-  './assets/images/FarmTableCooking.jpg',
-  './assets/images/uvaKayak&Rainforest.png',
-  './assets/images/carribeanReefSnorkling.JPG',
-  './assets/images/cahuitaNationalPark.jpg',
-  './assets/images/manzanillo.png',
-  './assets/images/punta mona.JPG',
-  './assets/images/jungleNightWalk.JPG',
-  './assets/images/carribeanWildlifeExpedition.JPG',
-  './assets/images/carribeanBirdWatching.jpg',
-  './assets/images/jungleWaterfallEscape.jpg',
-  './assets/images/gandocaLagoon.jpg',
-  './assets/images/kekoldi.jpg',
+  './assets/images/awaExperience.webp',
+  './assets/images/bribriCacaoImmersion.webp',
+  './assets/images/bribriCommunityImmersion.webp',
+  './assets/images/bribriRiver&CulturalImer.webp',
+  './assets/images/jungleImmersion.webp',
+  './assets/images/bribriRiverExp.webp',
+  './assets/images/FarmTableCooking.webp',
+  './assets/images/uvaKayak&Rainforest.webp',
+  './assets/images/carribeanReefSnorkling.webp',
+  './assets/images/cahuitaNationalPark.webp',
+  './assets/images/manzanillo.webp',
+  './assets/images/punta mona.webp',
+  './assets/images/jungleNightWalk.webp',
+  './assets/images/carribeanWildlifeExpedition.webp',
+  './assets/images/carribeanBirdWatching.webp',
+  './assets/images/jungleWaterfallEscape.webp',
+  './assets/images/gandocaLagoon.webp',
+  './assets/images/kekoldi.webp',
 ];
 const galleryImages = [
-  ...Array.from({ length: 20 }, (_, index) => `./assets/images/${index + 1}.jpg`),
-  './assets/images/awa experience.jpg',
-  './assets/images/awaExperience.jpg',
-  './assets/images/bribriCacaoImmersion.jpg',
-  './assets/images/bribriCommunityImmersion.jpg',
-  './assets/images/bribriRiver&CulturalImer.png',
-  './assets/images/bribriRiverExp.png',
-  './assets/images/cacao.png',
-  './assets/images/cahuitaNationalPark.jpg',
-  './assets/images/carribean bird watching2.jpg',
-  './assets/images/carribeanBirdWatching.jpg',
-  './assets/images/carribeanReefSnorkling.JPG',
-  './assets/images/carribeanWildlifeExpedition.JPG',
-  './assets/images/FarmTableCooking.jpg',
-  './assets/images/gandocaLagoon.jpg',
-  './assets/images/guide.jpg',
-  './assets/images/jungle waterfall escape2.jpg',
-  './assets/images/jungleImmersion.jpg',
-  './assets/images/jungleNightWalk.JPG',
-  './assets/images/jungleWaterfallEscape.jpg',
-  './assets/images/kekoldi.jpg',
-  './assets/images/manzanillo.png',
-  './assets/images/punta mona.JPG',
-  './assets/images/puntaMona.png',
-  './assets/images/uvaKayak&Rainforest.png',
+  ...Array.from({ length: 20 }, (_, index) => `./assets/images/${index + 1}.webp`),
+  './assets/images/awa experience.webp',
+  './assets/images/awaExperience.webp',
+  './assets/images/bribriCacaoImmersion.webp',
+  './assets/images/bribriCommunityImmersion.webp',
+  './assets/images/bribriRiver&CulturalImer.webp',
+  './assets/images/bribriRiverExp.webp',
+  './assets/images/cacao.webp',
+  './assets/images/cahuitaNationalPark.webp',
+  './assets/images/carribean bird watching2.webp',
+  './assets/images/carribeanBirdWatching.webp',
+  './assets/images/carribeanReefSnorkling.webp',
+  './assets/images/carribeanWildlifeExpedition.webp',
+  './assets/images/FarmTableCooking.webp',
+  './assets/images/gandocaLagoon.webp',
+  './assets/images/guide.webp',
+  './assets/images/jungle waterfall escape2.webp',
+  './assets/images/jungleImmersion.webp',
+  './assets/images/jungleNightWalk.webp',
+  './assets/images/jungleWaterfallEscape.webp',
+  './assets/images/kekoldi.webp',
+  './assets/images/manzanillo.webp',
+  './assets/images/punta mona.webp',
+  './assets/images/puntaMona.webp',
+  './assets/images/uvaKayak&Rainforest.webp',
 ];
 const awaDetails = `<p>Enter a sacred space. Connect with yourself. Discover another way of seeing the world.</p><p>There are experiences you simply visit. And there are experiences that invite you to look within.</p><p>A visit to an <strong>Awá</strong>, the traditional spiritual guide and healer of the Bribri people, is one of the most profound experiences you can have while visiting the Caribbean of Costa Rica.</p><p>This is not a conventional tour. It is an intimate encounter with Bribri spirituality, held inside a sacred <strong>Usule</strong>, the traditional ceremonial house of the Awá.</p><h4>🌿 A SACRED SPACE</h4><p>The session begins by creating a safe and sacred space through <strong>traditional chants, meditation and spiritual connection</strong>. The Awá guides the experience according to the person and their intentions, creating a moment to slow down, reconnect with oneself and explore what may be happening within.</p><p>Different elements of nature may be incorporated, including <strong>fire, water, plants and air</strong>, according to traditional practice and the needs of the session.</p><h4>🌀 WHY DO PEOPLE VISIT AN AWÁ?</h4><p>Every person arrives with a different reason. Some seek:</p><ul><li>Spiritual cleansing</li><li>Balance and inner harmony</li><li>A deeper connection with themselves</li><li>Spiritual guidance</li><li>Understanding of their personal path or purpose</li><li>Support during moments of transition</li><li>A deeper connection with the spiritual world</li><li>A space for reflection and healing</li></ul><p>The Awá works from Bribri ancestral knowledge, helping restore balance and allowing life to flow with greater harmony.</p><h4>🛖 INSIDE THE USULE</h4><p>The Usule is more than a traditional house. It is a sacred space connected to the Bribri worldview and spirituality. The Awá may share aspects of <strong>Bribri cosmology and our way of understanding existence, nature, the spiritual world and the human being's place within it.</strong></p><h4>✨ AN EXPERIENCE THAT GOES DEEPER</h4><p>Sometimes we need a space to stop, breathe, listen and reconnect. If you feel called to experience something deeper than conventional tourism, this may be an opportunity to discover a different perspective on yourself, nature and life.</p><h4>⏱️ DURATION</h4><p><strong>Approximately 2 hours.</strong> The session may extend according to its natural flow.</p><h4>👤 GROUP SIZE</h4><p>For one person or a small group. <strong>There is no minimum number of participants.</strong></p><h4>💰 PRICE</h4><p><strong>From $120 USD per person.</strong> Private sessions may have a different rate. Contact us for the current rate according to group size and transportation needs.</p><h4>🚐 TRANSPORTATION</h4><p>Transportation from <strong>Puerto Viejo</strong> can be arranged as an additional service.</p><h4>🌿 WHAT TO BRING</h4><ul><li>Comfortable clothing</li><li>Water</li><li>An open mind</li><li>A willingness to connect, listen and experience</li></ul><p>There is no specific physical difficulty or minimum age. A nearby waterfall visit can be arranged separately.</p><p><strong>THIS IS MORE THAN A VISIT.</strong><br /><strong>It is an invitation to pause, connect and look within.</strong></p>`;
 const cacaoDetails = `<p><strong>More than a tour - a journey into cacao, ancestral knowledge and the rainforest.</strong></p><p><strong>Approximately 5 hours · $95 USD per person · Easy · Minimum 2 people</strong></p><p>Step beyond conventional tourism and experience Bribri culture through <strong>cacao, plants, food, spirituality and the living rainforest</strong>. Hosted by local families, this experience invites you to participate, learn and connect rather than simply observe. There is no rush; every experience follows the natural rhythm of the people who join us.</p><h4>🌿 WHAT'S INCLUDED IN YOUR EXPERIENCE</h4><h4>🍫 Cacao Experience</h4><p>Discover the complete cacao process, from <strong>fermentation and drying to roasting and tasting</strong>, and learn about its spiritual connection to Indigenous peoples, the heart and human connection.</p><h4>🌱 Medicinal &amp; Ornamental Plants</h4><p>Interact with plants traditionally used by Bribri people and learn about their <strong>uses, benefits and cultural importance</strong>.</p><h4>🐸 Rainforest &amp; Wildlife</h4><p>Explore the forest, discover amphibians and wildlife, and learn about their place in the Bribri relationship with nature.</p><h4>🛖 Traditional Bribri House</h4><p>Enter a traditional house and explore the <strong>Bribri worldview, spirituality, dimensions of existence, human growth and purpose</strong>.</p><h4>🎨 Natural Painting</h4><p>Discover plants used to create natural pigments and, depending on the experience, create your own traditional-style painting.</p><h4>🍽️ Organic Community Lunch</h4><p>Enjoy a meal prepared with <strong>organic ingredients harvested within the community</strong>.</p><h4>💦 Waterfall Experience</h4><p>Finish at a beautiful waterfall where you can <strong>swim, relax and reconnect with nature</strong>. We also bring cacao to the waterfall for a natural exfoliation and a personal moment of connection with <strong>the earth, nature and yourself</strong>.</p><h4>🚐 TRANSPORTATION</h4><p>Round-trip transportation from <strong>Puerto Viejo</strong> is included.</p><h4>✨ MORE THAN A TOUR</h4><p>Meet people, learn from ancestral knowledge, connect with nature and discover another way of seeing the world. Meaningful cultural experiences begin with <strong>respect, curiosity and an open heart</strong>.</p><h4>🎒 WHAT TO BRING</h4><ul><li>Comfortable clothing</li><li>Closed-toe shoes</li><li>Insect repellent</li><li>Sunscreen</li><li>Water and snacks</li><li>Swimwear and towel</li></ul><h4>ℹ️ EXPERIENCE DETAILS</h4><p><strong>Duration:</strong> Approximately 5 hours<br /><strong>Price:</strong> $95 USD per person<br /><strong>Minimum booking:</strong> 2 people<br /><strong>Minimum age:</strong> No minimum age<br /><strong>Difficulty:</strong> Easy<br /><strong>Lunch:</strong> Organic community lunch included</p><h4>🛖 RESPECT FOR THE COMMUNITY</h4><p>This experience takes place within Bribri territory and is hosted with local families. To respect their privacy, culture and way of life, <strong>the exact meeting point and community location are shared only after the reservation has been confirmed.</strong></p><p><strong>COME WITH AN OPEN HEART.</strong><br /><strong>Learn. Participate. Connect.</strong><br /><strong>Experience Bribri culture beyond the surface.</strong></p>`;
@@ -110,10 +110,10 @@ const galleryItems: GalleryItem[] = [
   { type: 'video', src: './assets/video/15.mp4', title: 'Travel diary 15', description: 'Moments from our experiences.' },
   { type: 'video', src: './assets/video/16.mp4', title: 'Travel diary 16', description: 'Moments from our experiences.' },
   { type: 'video', src: './assets/video/17.mp4', title: 'Travel diary 17', description: 'Moments from our experiences.' },
-  { type: 'video', src: './assets/images/from farm to table video.mp4', title: 'Farm to table', description: 'Moments from our experiences.' },
+  { type: 'video', src: './assets/video/18.mp4', title: 'Travel diary 18', description: 'Moments from our experiences.' },
 ];
-// Generate the gallery markup
-const galleryMarkup = galleryItems.map((item) => `
+// Build gallery markup only when the Gallery view is opened.
+const createGalleryMarkup = () => galleryItems.map((item) => `
   <article class="gallery-item" data-gallery-type="${item.type}">
     ${item.type === 'video' ? `<video controls preload="metadata"><source src="${item.src}" type="video/mp4" /></video>` : `<img src="${item.src}" alt="${item.title}" loading="lazy" decoding="async" />`}
     <div class="gallery-item__caption"><span>${item.type === 'video' ? 'Video' : 'Photo'}</span><h3>${item.title}</h3><p>${item.description}</p></div>
@@ -137,7 +137,7 @@ const experienceMarkup = allExperiences.map((experience, index) => `
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Bribri Cultural Tours, home">
-    <img src="./assets/bribriLogo.png" alt="" class="brand__icon" aria-hidden="true" width="10" height="90" />
+    <img src="./assets/bribriLogo.webp" alt="" class="brand__icon" aria-hidden="true" width="10" height="90" />
     <span><strong>Bribri</strong><em> Cultural Tours</em></span>
   </a>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><small>Menu</small></button>
@@ -201,11 +201,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <section class="field-notes page-width">
       <div class="field-notes__copy"><span class="eyebrow">Postcards from the territory</span><h2>What it feels like<br /><em>when you arrive.</em></h2><p>Some places are not meant to be visited in a hurry. They are heard, walked and shared with those who truly know them.</p></div>
-      <div class="field-notes__media"><video controls preload="metadata" poster="./assets/images/3.jpg"><source src="./assets/video/2.mp4" type="video/mp4" />Your browser does not support HTML5 video.</video><span>Travel diary / 02</span></div>
+      <div class="field-notes__media"><video controls preload="metadata" poster="./assets/images/3.webp"><source src="./assets/video/2.mp4" type="video/mp4" />Your browser does not support HTML5 video.</video><span>Travel diary / 02</span></div>
     </section>
 
     <section class="guide page-width" id="guia">
-      <div class="guide__image"><img src="./assets/images/guide.jpg" alt="Roberth, Bribri local guide" loading="lazy" /></div>
+      <div class="guide__image"><img src="./assets/images/guide.webp" alt="Roberth, Bribri local guide" loading="lazy" /></div>
       <div class="guide__content"><span class="eyebrow">Meet your guide</span><h2>Roberth<br /><em>the person behind the journey.</em></h2><p>Hello, my name is Roberth.</p><p>I am a Bribri man, a tourism professional, and someone deeply connected to the culture, rainforest and land where I grew up.</p><p>I graduated from university with a degree in Tourism and have spent the past <strong>six years guiding travelers and sharing the Caribbean of Costa Rica</strong> - its landscapes, wildlife, people and culture.</p><p>But for me, tourism is more than a profession.</p><p>I am committed to the rescue, transmission and continuation of Bribri knowledge and traditions. Through my experiences, I share what I have learned about wildlife, plants, cacao, agriculture, Bribri history and the way our people understand and connect with the natural world.</p><p>I believe the best way to learn is by doing. That is why my experiences are not simply about visiting a place. They are about participating, asking questions, connecting and seeing the world from a different perspective.</p><p>I follow the Bribri principles of living consciously and in harmony with the Earth, with respect for the land, the people and everything around us.</p><p class="guide__closing"><strong>For me, sharing culture is not about showing you the past. It is about sharing something that is still alive.</strong><br /><span>SIBÖ BÉ KÍMË</span></p><a class="text-link" href="https://wa.me/50683647960" target="_blank" rel="noreferrer">Plan your experience <span>↗</span></a></div>
     </section>
 
@@ -234,7 +234,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <button type="button" class="gallery-filter" data-gallery-filter="image">Images</button>
         <button type="button" class="gallery-filter" data-gallery-filter="video">Videos</button>
       </div>
-      <div class="gallery-grid">${galleryMarkup}</div>
+      <div class="gallery-grid" data-gallery-content></div>
     </div>
   </section>
 
@@ -244,7 +244,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <!-- Branding -->
     <div class="footer__brand">
       <a class="brand brand--footer" href="#home">
-        <img src="./assets/bribriLogo.png" alt="" class="brand__icon" aria-hidden="true" width="48" height="48" />
+        <img src="./assets/bribriLogo.webp" alt="" class="brand__icon" aria-hidden="true" width="48" height="48" />
         <span><strong>Bribri</strong><em>Cultural Tours</em></span>
       </a>
       <p>Rooted travel from the Southern Caribbean of Costa Rica.</p>
@@ -329,12 +329,20 @@ document.querySelectorAll<HTMLButtonElement>('[data-experience-filter]').forEach
 const siteMain = document.querySelector<HTMLElement>('.site-main');
 const galleryView = document.querySelector<HTMLElement>('.gallery-view');
 const siteFooter = document.querySelector<HTMLElement>('.site-footer');
+const galleryContent = document.querySelector<HTMLElement>('[data-gallery-content]');
+let galleryLoaded = false;
 const openGallery = (event?: Event) => {
   event?.preventDefault(); closeMenu();
+  if (!galleryLoaded && galleryContent) {
+    galleryContent.innerHTML = createGalleryMarkup();
+    galleryLoaded = true;
+  }
   siteMain?.setAttribute('hidden', ''); siteFooter?.setAttribute('hidden', ''); galleryView?.removeAttribute('hidden');
   history.replaceState(null, '', '#gallery'); window.scrollTo({ top: 0, behavior: 'instant' });
 };
 const closeGallery = () => {
+  galleryContent?.replaceChildren();
+  galleryLoaded = false;
   galleryView?.setAttribute('hidden', ''); siteMain?.removeAttribute('hidden'); siteFooter?.removeAttribute('hidden');
   history.replaceState(null, '', '#home'); window.scrollTo({ top: 0, behavior: 'instant' });
 };
