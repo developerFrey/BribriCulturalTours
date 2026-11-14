@@ -1,0 +1,12 @@
+/*
+ * Stylesheet entry point (imported by src/main.ts).
+ * Vite inlines these @imports into a single CSS file at build time.
+ * Fonts are loaded from index.html (<link> with preconnect) for faster rendering.
+ */
+@import './base.css';
+@import './header.css';
+@import './hero.css';
+@import './experiences.css';
+@import './sections.css';
+@import './info.css';
+@import './overlays.css';

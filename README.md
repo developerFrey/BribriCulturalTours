@@ -10,7 +10,8 @@ The site presents local tours, detailed experience information, responsible-trav
 - Video hero section with custom controls.
 - Experience cards with filters, pricing and detailed modal views.
 - Gallery for images and videos.
-- English-language interface and SEO metadata.
+- Bilingual interface (English / Español) with a language switcher in the navbar; the choice is remembered.
+- SEO metadata updated per language.
 - WhatsApp contact buttons and social media links.
 - Downloadable tour catalog in PDF format.
 - Google Reviews widget integration.
@@ -71,8 +72,16 @@ BribriCulturalTours/
 │   ├── robots.txt           # Search-engine crawling rules
 │   └── sitemap.xml          # Search-engine sitemap
 ├── src/
-│   ├── main.ts              # Application structure and interactions
-│   ├── style.css            # Global styles and responsive layout
+│   ├── main.ts              # Entry point: renders the page and starts the features
+│   ├── config.ts            # WhatsApp, social links and other site constants
+│   ├── i18n/                # Language engine + UI texts (locales/en.ts, locales/es.ts)
+│   ├── data/
+│   │   ├── experiences/     # Tour catalog: index.ts (order, photo, category) + en.ts / es.ts copy
+│   │   └── gallery.ts       # Gallery photos and videos
+│   ├── templates/           # HTML of each section (header, hero, experiences, about…)
+│   ├── features/            # Interactivity: menu, hero video, filters, modal, gallery, language
+│   ├── styles/              # CSS split by section (index.css imports them all)
+│   ├── utils/               # Small DOM helpers
 │   └── vite-env.d.ts        # Vite type declarations
 ├── .github/workflows/       # Automatic GitHub Pages deployment
 ├── index.html               # SEO metadata and application entry point
@@ -95,11 +104,15 @@ https://www.bribriculturaltours.com
 
 ## Content Updates
 
-Most tour content and interactions are managed in:
+| What to change | Where |
+| --- | --- |
+| Tour texts and prices | `src/data/experiences/en.ts` and `es.ts` |
+| Tour order, photo or category | `src/data/experiences/index.ts` |
+| Any other site text (About us, policies, buttons…) | `src/i18n/locales/en.ts` and `es.ts` |
+| WhatsApp number, social links | `src/config.ts` |
+| Gallery media | `src/data/gallery.ts` |
 
-```text
-src/main.ts
-```
+Both language files must have the same keys — TypeScript reports an error if a translation is missing.
 
 Images, videos, icons and downloadable files belong in:
 
