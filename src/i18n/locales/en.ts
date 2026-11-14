@@ -102,7 +102,6 @@ export const en = {
       'But for me, tourism is more than a profession.',
       'I am committed to the rescue, transmission and continuation of Bribri knowledge and traditions. Through my experiences, I share what I have learned about wildlife, plants, cacao, agriculture, Bribri history and the way our people understand and connect with the natural world.',
       'I believe the best way to learn is by doing. That is why my experiences are not simply about visiting a place. They are about participating, asking questions, connecting and seeing the world from a different perspective.',
-      'I follow the Bribri principles of living consciously and in harmony with the Earth, with respect for the land, the people and everything around us.',
     ],
     closing: 'For me, sharing culture is not about showing you the past. It is about sharing something that is still alive.',
     cta: 'Plan your experience',

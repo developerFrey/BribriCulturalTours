@@ -100,7 +100,6 @@ export const es: Dictionary = {
       'Pero para mí, el turismo es más que una profesión.',
       'Estoy comprometido con el rescate, la transmisión y la continuidad del conocimiento y las tradiciones Bribri. A través de mis experiencias comparto lo que he aprendido sobre vida silvestre, plantas, cacao, agricultura, historia Bribri y la forma en que nuestro pueblo entiende y se conecta con el mundo natural.',
       'Creo que la mejor forma de aprender es haciendo. Por eso mis experiencias no se tratan solo de visitar un lugar, sino de participar, hacer preguntas, conectar y ver el mundo desde otra perspectiva.',
-      'Sigo los principios Bribri de vivir de forma consciente y en armonía con la Tierra, con respeto por la tierra, las personas y todo lo que nos rodea.',
     ],
     closing: 'Para mí, compartir la cultura no es mostrarte el pasado. Es compartir algo que todavía está vivo.',
     cta: 'Planea tu experiencia',
