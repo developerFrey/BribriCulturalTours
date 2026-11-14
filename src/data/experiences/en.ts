@@ -73,7 +73,7 @@ export const enExperiences: ExperienceCatalog = {
       <h4>🎒 WHAT TO BRING</h4>
       <ul><li>Comfortable clothing</li><li>Closed-toe shoes</li><li>Insect repellent</li><li>Sunscreen</li><li>Water and snacks</li><li>Swimwear and towel</li></ul>
       <h4>ℹ️ EXPERIENCE DETAILS</h4>
-      <p><strong>Duration:</strong> Approximately 5 hours<br /><strong>Price:</strong> $95 USD per person<br /><strong>Minimum booking:</strong> 2 people<br /><strong>Minimum age:</strong> No minimum age<br /><strong>Difficulty:</strong> Easy<br /><strong>Lunch:</strong> Organic community lunch included</p>
+      <p><strong>Duration:</strong> Approximately 5 hours<br /><strong>Price:</strong> $95 USD per person<br /><strong>Minimum booking:</strong> 2 people<br /><strong>Minimum age:</strong> No minimum age<br /><strong>Difficulty:</strong> Easy<br />
       <h4>🛖 RESPECT FOR THE COMMUNITY</h4>
       <p>This experience takes place within Bribri territory and is hosted with local families. To respect their privacy, culture and way of life, <strong>the exact meeting point and community location are shared only after the reservation has been confirmed.</strong></p>
       <p><strong>COME WITH AN OPEN HEART.</strong><br /><strong>Learn. Participate. Connect.</strong><br /><strong>Experience Bribri culture beyond the surface.</strong></p>`,

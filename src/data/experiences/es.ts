@@ -73,7 +73,7 @@ export const esExperiences: ExperienceCatalog = {
       <h4>🎒 QUÉ LLEVAR</h4>
       <ul><li>Ropa cómoda</li><li>Zapatos cerrados</li><li>Repelente de insectos</li><li>Protector solar</li><li>Agua y meriendas</li><li>Traje de baño y toalla</li></ul>
       <h4>ℹ️ DETALLES DE LA EXPERIENCIA</h4>
-      <p><strong>Duración:</strong> aproximadamente 5 horas<br /><strong>Precio:</strong> $95 USD por persona<br /><strong>Reserva mínima:</strong> 2 personas<br /><strong>Edad mínima:</strong> sin edad mínima<br /><strong>Dificultad:</strong> fácil<br /><strong>Almuerzo:</strong> almuerzo comunitario orgánico incluido</p>
+      <p><strong>Duración:</strong> aproximadamente 5 horas<br /><strong>Precio:</strong> $95 USD por persona<br /><strong>Reserva mínima:</strong> 2 personas<br /><strong>Edad mínima:</strong> sin edad mínima<br /><strong>Dificultad:</strong> fácil<br />
       <h4>🛖 RESPETO POR LA COMUNIDAD</h4>
       <p>Esta experiencia se realiza en territorio Bribri con familias locales como anfitrionas. Para respetar su privacidad, cultura y forma de vida, <strong>el punto de encuentro exacto y la ubicación de la comunidad se comparten solo después de confirmar la reserva.</strong></p>
       <p><strong>VEN CON EL CORAZÓN ABIERTO.</strong><br /><strong>Aprende. Participa. Conecta.</strong><br /><strong>Vive la cultura Bribri más allá de la superficie.</strong></p>`,

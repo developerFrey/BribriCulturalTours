@@ -15,10 +15,31 @@ export interface GalleryItem {
 const IMAGE_DIR = './assets/images/';
 const VIDEO_DIR = './assets/video/';
 
-/** Photos: the numbered set (1–20) followed by the tour photos. */
+/**
+ * Photos shown in the gallery, in display order (files live in /public/assets/images).
+ * To remove a photo, delete its line here; to add one, add its file name.
+ * Captions are numbered by position, so the numbering stays continuous on its own.
+ */
 const IMAGE_FILES = [
-  ...Array.from({ length: 20 }, (_, index) => `${index + 1}.webp`),
-  'awa experience.webp',
+  '1.webp',
+  '2.webp',
+  '4.webp',
+  '5.webp',
+  '6.webp',
+  '7.webp',
+  '8.webp',
+  '9.webp',
+  '10.webp',
+  '11.webp',
+  '12.webp',
+  '13.webp',
+  '14.webp',
+  '15.webp',
+  '16.webp',
+  '17.webp',
+  '18.webp',
+  '19.webp',
+  '20.webp',
   'awaExperience.webp',
   'bribriCacaoImmersion.webp',
   'bribriCommunityImmersion.webp',
