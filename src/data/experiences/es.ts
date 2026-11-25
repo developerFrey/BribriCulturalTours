@@ -32,7 +32,7 @@ export const esExperiences: ExperienceCatalog = {
       <h4>👤 TAMAÑO DEL GRUPO</h4>
       <p>Para una persona o un grupo pequeño. <strong>No hay un número mínimo de participantes.</strong></p>
       <h4>💰 PRECIO</h4>
-      <p><strong>Desde $120 USD por persona.</strong> Las sesiones privadas pueden tener otra tarifa. Contáctanos para conocer el precio según el tamaño del grupo y las necesidades de transporte.</p>
+      <p><strong>Consulta por el precio por persona.</strong> Las sesiones privadas pueden tener otra tarifa. Contáctanos para conocer el precio según el tamaño del grupo y las necesidades de transporte.</p>
       <h4>🚐 TRANSPORTE</h4>
       <p>El transporte desde <strong>Puerto Viejo</strong> puede coordinarse como servicio adicional.</p>
       <h4>🌿 QUÉ LLEVAR</h4>
@@ -62,8 +62,6 @@ export const esExperiences: ExperienceCatalog = {
       <p>Entra a una casa tradicional y explora la <strong>cosmovisión Bribri, la espiritualidad, las dimensiones de la existencia, el crecimiento humano y el propósito</strong>.</p>
       <h4>🎨 Pintura natural</h4>
       <p>Descubre plantas que se usan para crear pigmentos naturales y, según la experiencia, crea tu propia pintura de estilo tradicional.</p>
-      <h4>🍽️ Almuerzo comunitario orgánico</h4>
-      <p>Disfruta una comida preparada con <strong>ingredientes orgánicos cosechados en la comunidad</strong>.</p>
       <h4>💦 Experiencia en la catarata</h4>
       <p>Termina en una hermosa catarata donde podrás <strong>nadar, relajarte y reconectar con la naturaleza</strong>. También llevamos cacao a la catarata para una exfoliación natural y un momento personal de conexión con <strong>la tierra, la naturaleza y contigo</strong>.</p>
       <h4>🚐 TRANSPORTE</h4>

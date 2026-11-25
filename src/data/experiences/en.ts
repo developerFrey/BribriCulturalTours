@@ -32,7 +32,7 @@ export const enExperiences: ExperienceCatalog = {
       <h4>👤 GROUP SIZE</h4>
       <p>For one person or a small group. <strong>There is no minimum number of participants.</strong></p>
       <h4>💰 PRICE</h4>
-      <p><strong>From $120 USD per person.</strong> Private sessions may have a different rate. Contact us for the current rate according to group size and transportation needs.</p>
+      <p><strong>Request for the price per person.</strong> Private sessions may have a different rate. Contact us for the current rate according to group size and transportation needs.</p>
       <h4>🚐 TRANSPORTATION</h4>
       <p>Transportation from <strong>Puerto Viejo</strong> can be arranged as an additional service.</p>
       <h4>🌿 WHAT TO BRING</h4>
@@ -62,8 +62,6 @@ export const enExperiences: ExperienceCatalog = {
       <p>Enter a traditional house and explore the <strong>Bribri worldview, spirituality, dimensions of existence, human growth and purpose</strong>.</p>
       <h4>🎨 Natural Painting</h4>
       <p>Discover plants used to create natural pigments and, depending on the experience, create your own traditional-style painting.</p>
-      <h4>🍽️ Organic Community Lunch</h4>
-      <p>Enjoy a meal prepared with <strong>organic ingredients harvested within the community</strong>.</p>
       <h4>💦 Waterfall Experience</h4>
       <p>Finish at a beautiful waterfall where you can <strong>swim, relax and reconnect with nature</strong>. We also bring cacao to the waterfall for a natural exfoliation and a personal moment of connection with <strong>the earth, nature and yourself</strong>.</p>
       <h4>🚐 TRANSPORTATION</h4>
