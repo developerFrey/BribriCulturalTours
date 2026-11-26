@@ -2,9 +2,10 @@
  * "Read more" dialog with the full description of an experience.
  * If the language changes while it is open, the content is swapped in place.
  */
+import { whatsappLink } from '../config';
 import { getExperience } from '../data/experiences';
 import { getLanguage, onLanguageChange, t } from '../i18n';
-import { $, $$ } from '../utils/dom';
+import { $, $$, toPlainText } from '../utils/dom';
 
 let modal: HTMLElement | null = null;
 /** Id of the experience currently shown (null when closed). */
@@ -29,6 +30,12 @@ function fillModal(id: string): boolean {
   $$('[data-modal]', modal).forEach((slot) => {
     slot.innerHTML = slots[slot.dataset.modal ?? ''] ?? '';
   });
+
+  // "Check availability" opens WhatsApp with a message naming this tour.
+  const whatsapp = $<HTMLAnchorElement>('[data-modal-whatsapp]', modal);
+  if (whatsapp) {
+    whatsapp.href = whatsappLink(t('modal.whatsappMessage', { tour: toPlainText(experience.title) }));
+  }
   return true;
 }
 

@@ -8,6 +8,13 @@
 /** WhatsApp chat link used by every "book / plan / contact" call to action. */
 export const WHATSAPP_URL = 'https://wa.me/50683647960';
 
+/**
+ * WhatsApp link that opens the chat with `message` already typed in the box.
+ * The visitor still has to press send themselves.
+ */
+export const whatsappLink = (message: string): string =>
+  `${WHATSAPP_URL}?text=${encodeURIComponent(message)}`;
+
 /** Public Google reviews page. */
 export const GOOGLE_REVIEWS_URL = 'https://share.google/V1qIqn1u5bqO3oFVG';
 

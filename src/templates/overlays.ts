@@ -88,7 +88,7 @@ export const modalTemplate = (): string => `
         <span data-modal="duration"></span>
         <strong data-modal="price"></strong>
       </div>
-      <a class="button button--dark" href="${WHATSAPP_URL}" ${EXTERNAL}>${text('modal.cta')}${arrow()}</a>
+      <a class="button button--dark" href="${WHATSAPP_URL}" data-modal-whatsapp ${EXTERNAL}>${text('modal.cta')}${arrow()}</a>
     </div>
   </div>`;
 

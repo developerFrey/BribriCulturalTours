@@ -210,6 +210,8 @@ export const en = {
   modal: {
     close: 'Close information',
     cta: 'Check availability',
+    /** Pre-typed WhatsApp message; {tour} is replaced with the tour name. */
+    whatsappMessage: "Hi! I'm interested in the {tour} tour. Could you tell me about availability and prices?",
   },
 
   footer: {

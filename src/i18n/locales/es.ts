@@ -208,6 +208,7 @@ export const es: Dictionary = {
   modal: {
     close: 'Cerrar información',
     cta: 'Consultar disponibilidad',
+    whatsappMessage: '¡Hola! Me interesa el tour {tour}. ¿Me podrían dar información sobre disponibilidad y precios?',
   },
 
   footer: {
